@@ -1,13 +1,14 @@
 <template>
   <el-row class="bg-indigo-500 min-h-screen">
-    <el-col :span="16" class="flex items-center justify-center">
+    <el-col :lg="16" :md="12" class="flex items-center justify-center">
       <div>
         <div class="text-light-50 font-bold text-3xl mb-4">欢迎光临</div>
         <div class="text-gray-200 text-sm">《vue3+vite》实战项目演示网站</div>
       </div>
     </el-col>
     <el-col
-      :span="8"
+    :lg="8"
+      :md="12"
       class="bg-light-50 flex items-center justify-center flex-col"
     >
       <h2 class="font-bold text-3xl text-gray-800">欢迎回来</h2>
