@@ -4,13 +4,10 @@
 
 <template>
  <div>
- <button class="btn">按钮</button>
   <router-view></router-view>
  </div>
 </template>
 
 <style scoped>
-.btn{
-  @apply bg-purple-500 text-indigo-50 px-4 py-2 rounded duration-150 transition-all hover:( bg-purple-900) focus:(ring-8 ring-yellow-500);
-}
+
 </style>
